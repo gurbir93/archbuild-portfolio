@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCHBUILD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">OUR PROJECTS</a></li>
+                    <li><a href="">OUR SERVICES</a></li>
+                    <li><a href="">ENQUIRY</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>WELCOME TO ARCHBUILD</h1>
+            <p>Researches, programs, plans, designs, and administers building projects for clients, applying knowledge of architectural design, construction detailing, construction procedures, zoning and building codes, and building materials and systems.</p>
+            <a href=""class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+
+    </section>
+
+
+    <!-- -----course----- -->
+    <section class="Services">
+        <h1>Servies We Provide</h1>
+        <p>There are several important components to service architecture, including</p>
+        
+        <div class="row">
+            <div class="Services-col">
+                <h3>Architecture</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur deleniti quam accusamus ut aspernatur commodi libero, mollitia rerum inventore itaque minima! Cupiditate sit laudantium voluptate laboriosam aut natus quis fugit nam in sapiente.</p>
+
+            </div>
+                <div class="Services-col">
+                    <h3>Interior Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur deleniti quam accusamus ut aspernatur commodi libero, mollitia rerum inventore itaque minima! Cupiditate sit laudantium voluptate laboriosam aut natus quis fugit nam in sapiente.</p>
+    
+                </div>
+                    <div class="Services-col">
+                        <h3>Planning</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum pariatur deleniti quam accusamus ut aspernatur commodi libero, mollitia rerum inventore itaque minima! Cupiditate sit laudantium voluptate laboriosam aut natus quis fugit nam in sapiente.</p>
+        
+                    </div>
+                    
+        </div>
+
+
+
+    </section>
+
+    <!-- ----- Campus---- -->
+    <section class="Campus">
+        <h1>Our Global Campus</h1>
+        <p>There are several important components to service architecture, including</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="img/london.png" alt="image">
+                <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+            <div class="campus-col">
+                <img src="img/newyork.png" alt="image">
+                <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+            <div class="campus-col red-layer">
+                <img src="img/washington.png" alt="image">
+                <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+    
+
+    <!-------javaScript for Toggle Manu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            
+        }
+    </script>
+</body>
+</html>
